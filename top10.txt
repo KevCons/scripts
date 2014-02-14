@@ -1,0 +1,10 @@
+      3  chmod 700 tophistory.sh
+      4  history | awk '{ $1=""; print $0 }' | sort | uniq -c | sort -n | tail -15 > pipes.txt
+      5  emacs tophistory.sh
+      5  history
+      7  cd cs210
+      7  cd Lab05
+      8  tophistory.sh
+     11  cd bin
+     18  cd ..
+     33  ls
